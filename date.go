@@ -2,6 +2,9 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
+// Code has been adapted from Go standard time package.
+// Copyright 2009 The Go Authors. All rights reserved.
+
 //go:generate stringer -type=Weekday,Month
 
 // Package date implements support for Gregorian date, following ISO 8601
